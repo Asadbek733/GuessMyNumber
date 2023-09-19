@@ -88,6 +88,8 @@ document.querySelector('.english').addEventListener('click', function () {
   document.querySelector('.again').textContent = 'Again!';
   document.querySelector('.check').textContent = 'Check!';
   document.querySelector('.message').textContent = 'Start guessing...';
-  document.querySelector('.label-highscore').textContent = '🥇 Highscore: ';
-  document.querySelector('.label-score').textContent = '💯 Score: ';
+  document.querySelector('.label-highscore').innerHTML =
+    '🥇 Highscore: <span class="highscore">0</span>';
+  document.querySelector('.label-score').innerHTML =
+    '💯 Score: <span class="score">20</span>';
 });
