@@ -3,7 +3,7 @@
 // document.querySelector(('h1')); 
 
 document.querySelector('.btn01').addEventListener('click', function () {
-    document.querySelector('h1').textContent = "Mening raqamimni toping";
+    document.querySelector('h1').textContent = "Meni raqamimni top";
     document.querySelector('.between').textContent = "1 dan 20 gacha";
     document.querySelector('.again').textContent = "Yana";
     document.querySelector('.check').textContent = "Tekshiring";
